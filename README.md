@@ -1,73 +1,21 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/e8155ab9-e586-4cf2-bd2b-487630f4cef2
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/e8155ab9-e586-4cf2-bd2b-487630f4cef2) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e8155ab9-e586-4cf2-bd2b-487630f4cef2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MockMate AI: Multimodal Interview Simulation Platform
+Introduction and Core Mission
+MockMate AI is an innovative AI-powered virtual interviewing platform that simulates real-time interviews using generative AI and an AI avatar. The system is designed to act as a personal interview coach, accessible to anyone from a student to a professional anywhere in the world. Its core mission is to democratize career preparation by offering realistic, on-demand interview practice. The platform focuses on building user's confidence and sharpening their communication skills by providing personalized, actionable feedback on their performance. MockMate directly addresses a critical and underserved need in career development by providing accessible, affordable, and objective interview coaching.
+Problem Statement and Motivation
+Job seekers often feel unprepared for interviews due to a lack of realistic practice and personalized feedback. Current practice methods, such as practicing with friends or using static online guides, fail to simulate real-world pressure or provide objective critiques on communication style and content. Traditional tools often provide generic responses, lacking the depth and context needed for effective practice. Therefore, there is a significant need for a convenient, reliable, and personalized tool that simulates interviews and provides instant, constructive feedback.
+Key Features and Unique Selling Proposition (USP)
+MockMate AI's solution is distinguished by its dynamic simulation and comprehensive, objective feedback:
+• Realistic Simulation: The system conducts AI-driven interview sessions with video and audio interaction, replicating HR and technical interview scenarios. It utilizes AI Avatars for Natural Interaction in the Real-time Interview Simulation, which recognize emotions, pose, and tone.
+• Customization and Context: Users can utilize Customizable Sessions by selecting the job role and desired interview duration. The system analyzes resumes, job descriptions, and company details to generate context-specific questions from a dynamic question bank that adapts to the chosen role and adapts questions dynamically based on user responses.
+• Multimodal Behavioral Analysis (USP): The platform evaluates responses based on language, confidence, posture, and technical skills. It provides real-time analysis of speech (clarity, fluency) and facial expressions (confidence, engagement). This analysis is used to measure the Confidence Checker score using AI-based multimodal analysis of response fluency, facial expressions, gestures, image recognition, and voice tone.
+• Comprehensive Feedback Dashboard: After the session, the system provides post-interview analysis via a visual report card. This dashboard shows the content score, delivery score, metrics on speaking pace, confidence score, filler words, and vocal tone, along with the Body Language Score (insights on eye contact and posture).
+• Progress Tracking: The dashboard allows users to view past reports and track their progress over time via charts and graphs showing user improvement across multiple sessions.
+Technology Stack and Implementation Details
+MockMate AI leverages advanced AI and cloud technologies:
+• Core AI and Generation: The solution relies heavily on Generative AI (LLM-based). It uses LangChain (Agentic AI) and Retrieval-Augmented Generation (RAG) to simulate realistic interviews and retrieve contextual knowledge.
+• Behavioral Analysis: Webcam-based Behavioral Analysis is implemented using Computer Vision Libraries such as MediaPipe for facial and expression analysis.
+• Audio Processing: The system employs Speech Processing Tools like Whisper AI for Speech to Text (STT) conversion and real-time transcription of user answers.
+• Architecture and Data: The system uses Python and Node.js as programming languages. Database Management Systems include ChromaDB and Pinecone. The architecture involves a retriever-generator pipeline to provide instant, contextual feedback.
+• Hardware and Environment: The platform is designed as a web/cloud-based solution, accessible via any modern web browser. It requires a reliable broadband internet connection for smooth, real-time video and audio communication.
+Project Scope and Future Vision
+MockMate AI is currently a web/cloud-based prototype. The project highlights its potential to level the playing field for all job seekers. Future scope elements include Real-Time coaching to provide live feedback and suggestions during the interview session, developing Dedicated apps for Android and iOS, and full Resume/LinkedIn Integration based on the user's experience. The project also aims for Deeper analysis to detect nuanced emotional states like nervousness, stress, or enthusiasm and acknowledges the need to address critical challenges such as algorithmic bias and data privacy through fairness audits and ethical frameworks.
